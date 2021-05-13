@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var string = 'Tinc un cotxe de color verd';
+        console.log(string);
+
+        var newString = string.replace('verd', 'blau');
+        console.log(newString);
+
+        function replaceLetterO (text){
+            for (i=0; i<= text.length; i++){
+                if (text[i]=== 'o'){
+                    text[i] = 'u'
+                }
+            }
+            return text
+        };
+
+        console.log(replaceLetterO(newString));
+
+    </script>
+</body>
+</html>
